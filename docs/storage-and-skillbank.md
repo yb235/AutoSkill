@@ -268,7 +268,7 @@ The BM25 index tokenizes skill names, descriptions, triggers, and tags into a te
 hybrid_score = (1 - bm25_weight) × vector_score + bm25_weight × bm25_score
 ```
 
-**Rationale**: See [Design Patterns → Hybrid Retrieval](design-patterns.md) for why both search methods are needed.
+**Rationale**: See [Design Patterns](design-patterns.md) for why both search methods are needed.
 
 **File**: `autoskill/management/stores/bm25_index.py`
 

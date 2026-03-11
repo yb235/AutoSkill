@@ -196,7 +196,7 @@ Each line is a complete conversation turn with messages, tools used, and results
 ## Installation
 
 ```bash
-python3 OpenClaw-Plugin/install.py \
+python OpenClaw-Plugin/install.py \
     --workspace-dir ~/.openclaw \
     --llm-provider internlm \
     --embeddings-provider qwen \
